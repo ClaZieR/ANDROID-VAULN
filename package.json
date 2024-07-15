@@ -1,0 +1,36 @@
+{
+  "name": "android_vauln",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/config": "^8.1.1",
+    "@expo/metro-config": "^0.10.0",
+    "@expo/vector-icons": "^14.0.2",
+    "axios": "^1.7.2",
+    "expo": "~51.0.18",
+    "expo-device": "^6.0.2",
+    "expo-linear-gradient": "~13.0.2",
+    "expo-local-authentication": "~14.0.1",
+    "expo-network": "~6.0.1",
+    "expo-secure-store": "~13.0.2",
+    "expo-status-bar": "~1.12.1",
+    "expo-updates": "~0.25.18",
+    "jail-monkey": "^2.8.0",
+    "react": "18.2.0",
+    "react-native": "0.74.3",
+    "react-native-device-info": "^11.1.0",
+    "react-native-vector-icons": "^10.1.0",
+    "react-native-xml2js": "^1.0.3",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
